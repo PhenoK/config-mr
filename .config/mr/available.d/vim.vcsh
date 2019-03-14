@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/config-vim.git]
+checkout = vcsh clone https://github.com/PhenoK/config-vim.git config-vim
+update = vcsh config-vim pull 
+push = vcsh config-vim push
+status = vcsh config-vim status
+gc = vcsh config-vim gc

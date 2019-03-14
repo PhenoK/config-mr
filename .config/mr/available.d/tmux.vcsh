@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/config-tmux.git]
+checkout = vcsh clone https://github.com/PhenoK/config-tmux.git config-tmux
+update = vcsh config-tmux pull 
+push = vcsh config-tmux push
+status = vcsh config-tmux status
+gc = vcsh config-tmux gc

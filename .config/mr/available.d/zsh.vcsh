@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/config-zsh.git]
+checkout = vcsh clone https://github.com/PhenoK/config-zsh.git config-zsh
+update = vcsh config-zsh pull 
+push = vcsh config-zsh push
+status = vcsh config-zsh status
+gc = vcsh config-zsh gc
