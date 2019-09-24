@@ -1,0 +1,6 @@
+[$HOME/.config/vcsh/repo.d/config-mr.git]
+checkout = vcsh clone https://github.com/Shen-Jing/config-mr.git config-mr
+update = vcsh config-mr pull 
+push = vcsh config-mr push
+status = vcsh config-mr status
+gc = vcsh config-mr gc
