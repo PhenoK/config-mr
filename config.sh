@@ -3,8 +3,10 @@
 
 # [Zsh]
 # or use git.io/antigen-nightly for the latest version
-curl -L git.io/antigen > antigen.zsh
+#curl -L git.io/antigen > antigen.zsh
 
+# zplug
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 
 # [Tmux]
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

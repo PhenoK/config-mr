@@ -8,3 +8,5 @@
 !/.config/mr/config.d
 !/.config/mr/config.d/*
 !/.mrconfig
+!/config.sh
+!/README.md
