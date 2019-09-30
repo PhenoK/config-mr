@@ -10,4 +10,6 @@
 !/.config/mr/config.d/*
 !/.mrconfig
 !/config.sh
+!/.jupyter
+!/.jupyter/*
 !/README.md
