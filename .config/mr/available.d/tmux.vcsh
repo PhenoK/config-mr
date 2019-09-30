@@ -2,7 +2,7 @@
 checkout = 
   vcsh clone https://github.com/Shen-Jing/config-tmux.git config-tmux
   cd config-tmux
-  git remote add upstream git@github.com:Shen-Jing/config-tmux.git
+  git remote add origin git@github.com:Shen-Jing/config-tmux.git
 update = vcsh config-tmux pull 
 push = vcsh config-tmux push
 status = vcsh config-tmux status
