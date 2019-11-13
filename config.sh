@@ -19,3 +19,5 @@ tmux source ~/.tmux.conf
 # +: -c 
 # Since the installer on Vim 8 is asynchronous, you might want to pass --sync flag
 vim +'PlugInstall --sync' +qa
+cd ~/.vim/plugged/YouCompleteMe
+python3 install.py --clangd-completer
