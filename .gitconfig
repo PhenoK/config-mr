@@ -3,5 +3,16 @@
 	name = ShenJing
 [core]
 	editor = vim
+	autocrlf = false
+	quotepath = false
 [credential]
-	helper = cache --timeout 86400
+	helper = cache --timeout 864000
+[help]
+	autocorrect = 30
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[alias]
+	ll = log --pretty=format:'%h %ad | %s%d [%Cgreen%an%Creset]' --graph --date=short
+	lg = log --graph --pretty=format:'%Cred%h%Creset %ad |%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset [%Cgreen%an%Creset]' --abbrev-commit --date=short
